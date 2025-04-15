@@ -1,0 +1,22 @@
+nav {
+    height: 60px;
+    background-color: #006E7B;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+            color: aquamarine;
+            text-decoration: underline;
+        }
+    }
+
+
+}

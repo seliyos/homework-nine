@@ -1,0 +1,93 @@
+.home {
+    width: 1366px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+    .hero-image {
+        width: 1366px;
+        margin: 0 auto;
+        height: 350px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background-image: url(../images/hero-book.jpeg);
+        background-size: cover;
+        background-position: center;
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 50px;
+            color: #fff;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+        }
+    }
+
+    .text {
+        margin-top: 50px;
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 30px;
+            color: #006E7B;
+
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: #000;
+            margin-top: 20px;
+        }
+
+    }
+
+    .images {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 50px;
+
+
+
+        .book1,
+        .book2,
+        .book3 {
+            width: 400px;
+            height: 300px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        h3 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: #006E7B;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            color: #000;
+            text-align: center;
+        }
+
+    }
+
+
+}
